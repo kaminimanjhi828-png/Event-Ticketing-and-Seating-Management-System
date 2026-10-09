@@ -122,3 +122,7 @@
          FOREIGN KEY (ticket_id) REFERENCES TICKET(ticket_id),
          FOREIGN KEY (scanned_by) REFERENCES USERS(user_id)
      );
+CREATE INDEX idx_ticket_user ON TICKET(user_id);
+CREATE INDEX idx_event_venue ON EVENT(venue_id);
+CREATE INDEX idx_payment_ticket ON PAYMENT(ticket_id);
+CREATE INDEX idx_scan_ticket ON SCAN_LOG(ticket_id);
