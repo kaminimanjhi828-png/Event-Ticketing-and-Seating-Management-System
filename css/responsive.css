@@ -1,0 +1,147 @@
+/* Tablet */
+
+@media (max-width: 900px) {
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .checkout-container {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 92%;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    /* Hero */
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    /* Sections */
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .page-header {
+        padding: 60px 0;
+    }
+
+    .page-header h1 {
+        font-size: 36px;
+    }
+
+    /* Cards */
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    /* Forms */
+
+    .form-container {
+        width: 92%;
+        padding: 25px;
+    }
+
+    .auth-container {
+        min-height: 500px;
+    }
+
+    /* Payment */
+
+    .checkout-container {
+        grid-template-columns: 1fr;
+    }
+
+    .checkout-box {
+        padding: 20px;
+    }
+
+    .order-table {
+        font-size: 14px;
+    }
+
+    .order-table th,
+    .order-table td {
+        padding: 10px 6px;
+    }
+
+    /* CTA */
+
+    .cta h2 {
+        font-size: 28px;
+    }
+
+    /* Footer */
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer-links a {
+        margin: 0 5px;
+    }
+}

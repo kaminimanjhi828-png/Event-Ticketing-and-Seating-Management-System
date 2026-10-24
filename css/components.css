@@ -1,0 +1,293 @@
+/* =========================
+   NAVIGATION
+========================= */
+
+.navbar {
+    padding: 0 5%;
+}
+
+.nav-button {
+    padding: 9px 18px;
+    border-radius: 4px;
+    background-color: #254735;
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #9a7448;
+}
+
+
+/* =========================
+   EVENT CARDS
+========================= */
+
+.event-card {
+    overflow: hidden;
+    padding: 0;
+}
+
+.event-card img {
+    height: 210px;
+    border-radius: 8px 8px 0 0;
+}
+
+.event-card-content {
+    padding: 24px;
+}
+
+.event-card-content h3 {
+    margin-top: 0;
+}
+
+.event-category {
+    display: inline-block;
+    color: #8b6842;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.event-date {
+    color: #77736b;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.event-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.event-bottom .price {
+    margin: 0;
+}
+
+
+/* =========================
+   FEATURE CARDS
+========================= */
+
+.feature-card {
+    text-align: center;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee8dc;
+    color: #254735;
+    font-size: 25px;
+}
+
+
+/* =========================
+   PAYMENT
+========================= */
+
+.checkout-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px;
+}
+
+.checkout-box {
+    background-color: #fffdf9;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ded5c6;
+}
+
+.checkout-box h2 {
+    font-family: Georgia, serif;
+    color: #254735;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   ORDER TABLE
+========================= */
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ded5c6;
+}
+
+.order-table th {
+    color: #254735;
+}
+
+.order-total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: #254735;
+}
+
+
+/* =========================
+   PAYMENT NOTE
+========================= */
+
+.payment-note {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #eee8dc;
+    color: #6d6b64;
+    font-size: 14px;
+}
+
+
+/* =========================
+   LEGAL
+========================= */
+
+.legal-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.legal-section {
+    margin-bottom: 35px;
+}
+
+.legal-section h2 {
+    font-family: Georgia, serif;
+    margin-bottom: 12px;
+    color: #254735;
+}
+
+.legal-section p {
+    color: #6d6b64;
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   LOGIN / REGISTER
+========================= */
+
+.auth-container {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-box {
+    width: 100%;
+    max-width: 500px;
+}
+
+.auth-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.auth-title h1 {
+    font-family: Georgia, serif;
+    color: #254735;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.auth-title p {
+    color: #77736b;
+}
+
+
+/* =========================
+   GENDER OPTIONS
+========================= */
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.radio-option input {
+    width: auto;
+}
+
+
+/* =========================
+   FULL WIDTH BUTTON
+========================= */
+
+.btn-full {
+    width: 100%;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+    background-color: #254735;
+    color: white;
+    text-align: center;
+}
+
+.cta h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    color: #d9dfd9;
+    margin-bottom: 25px;
+}
+
+.cta .btn {
+    background-color: #d4b78b;
+    border-color: #d4b78b;
+    color: #26352c;
+}
+
+.cta .btn:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+/* =========================
+   EMPTY STATE
+========================= */
+
+.empty-state {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.empty-state p {
+    color: #77736b;
+    margin-bottom: 20px;
+}

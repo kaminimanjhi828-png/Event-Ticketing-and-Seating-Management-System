@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3eb;
+    color: #26352c;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+    background-color: #f7f3eb;
+    border-bottom: 1px solid #ded5c6;
+}
+
+.navbar {
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #254735;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #4b514b;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #254735;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #f7f3eb;
+}
+
+.hero-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: 64px;
+    line-height: 1.1;
+    color: #254735;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #9a7448;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+    color: #656b64;
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+    display: inline-block;
+    padding: 13px 28px;
+    border-radius: 4px;
+    background-color: #254735;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #254735;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #9a7448;
+    border-color: #9a7448;
+    color: #ffffff;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #254735;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #77736b;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.card {
+    background-color: #fffdf9;
+    border: 1px solid #ded5c6;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-family: Georgia, serif;
+    font-size: 23px;
+    color: #254735;
+}
+
+.card p {
+    color: #77736b;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+    background-color: #eee8dc;
+}
+
+.about-content {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content p {
+    color: #66685f;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   PAGE HEADER
+========================= */
+
+.page-header {
+    padding: 90px 0;
+    text-align: center;
+    background-color: #eee8dc;
+}
+
+.page-header h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    color: #254735;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    color: #77736b;
+    font-size: 18px;
+}
+
+
+/* =========================
+   FORMS
+========================= */
+
+.form-container {
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    background-color: #fffdf9;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #ded5c6;
+    box-shadow: 0 12px 35px rgba(55, 45, 32, 0.08);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #35443a;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px;
+    border-radius: 4px;
+    border: 1px solid #d5cabb;
+    background-color: #fbf8f2;
+    color: #26352c;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #58705f;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-check input {
+    width: auto;
+}
+
+.form-link {
+    color: #8b6842;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   TEAM
+========================= */
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.team-member {
+    text-align: center;
+    background-color: #fffdf9;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ded5c6;
+}
+
+.team-member img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    border: 3px solid #b59a76;
+}
+
+.team-member h3 {
+    font-family: Georgia, serif;
+    color: #254735;
+    margin-top: 15px;
+}
+
+.team-member p {
+    color: #77736b;
+}
+
+
+/* =========================
+   PRICE
+========================= */
+
+.price {
+    color: #8b6842;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #254735;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #d9dfd9;
+}
+
+.footer-links {
+    margin-bottom: 18px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #e5e8e3;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #d4b78b;
+}
+
+
+/* =========================
+   UTILITY
+========================= */
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
